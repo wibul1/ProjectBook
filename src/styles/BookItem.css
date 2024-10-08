@@ -1,0 +1,27 @@
+.book-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    width: 250px; /* กำหนดความกว้างของแต่ละรายการหนังสือ */
+    margin: 10px; /* ระยะห่างระหว่างแต่ละรายการ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.book-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+

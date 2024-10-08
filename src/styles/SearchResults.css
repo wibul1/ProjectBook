@@ -1,0 +1,16 @@
+/* SearchResults.css */
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.search-results .book-item {
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

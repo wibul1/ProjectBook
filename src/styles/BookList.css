@@ -1,0 +1,121 @@
+.app-container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Header {
+    height: 15vh;
+}
+
+.Carousel {
+    height: 45vh;
+}
+
+.book-category, .search-results {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; /* เพิ่มให้แต่ละหมวดหมู่กว้างเต็มที่ */
+    max-width: 1000px; /* ปรับขนาดตามที่ต้องการ */
+    margin: 0 auto; /* จัดให้อยู่กึ่งกลาง */
+}
+
+.book-category img, .search-results img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.book-category h2, .search-results h2 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+}
+
+.book-category p, .search-results p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.book-category button, .search-results button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-category button:hover, .search-results button:hover {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    flex: 0 0 20%;
+    max-width: 20%;
+    background-color: #f8f9fa; /* สีพื้นหลังสำหรับด้านซ้าย */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-side {
+    flex: 1;
+    max-width: 80%;
+    padding: 10px;
+    background-color: #ffffff; /* สีพื้นหลังสำหรับด้านขวา */
+}
+
+

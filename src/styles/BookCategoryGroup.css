@@ -1,0 +1,41 @@
+
+.main-content-category {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* สร้าง 5 คอลัมน์ */
+    gap: 20px; /* ระยะห่างระหว่างแต่ละรายการ */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bookGroup-category {
+    margin-bottom: 30px;
+    flex-direction: row;
+}
+
+.bookGroup-item {
+    min-width: 40px;
+    min-height: 80px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bookGroup-item img {
+    max-width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.bookGroup-item h3 {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.bookGroup-item p {
+    font-size: 1em;
+    margin: 5px 0;
+}

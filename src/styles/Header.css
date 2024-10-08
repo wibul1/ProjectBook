@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.view-cart-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view-cart-button:hover {
+    background-color: #ff4500;
+}

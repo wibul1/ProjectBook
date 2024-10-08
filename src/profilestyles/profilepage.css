@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* ช่วยให้ขึ้นแถวใหม่เมื่อเต็มแถว */
+    gap: 20px; /* ระยะห่างระหว่างรูปภาพ */
+    justify-content: center; /* จัดกลาง */
+}
+
+.container-menu {
+    display: flex;
+    flex-wrap: wrap; /* ช่วยให้ขึ้นแถวใหม่เมื่อเต็มแถว */
+    gap: 20px; /* ระยะห่างระหว่างรูปภาพ */
+    justify-content: center; /* จัดกลาง */
+}
+
+.profile-title{
+    /* background-color: #5897d6; */
+    text-align: center;
+    font-size: 78px;
+}
+
+.profile-image {
+
+    width: 100%; /* ทำให้รูปภาพเต็มความกว้างของ container */
+    height: auto; /* ปรับอัตราส่วนภาพอัตโนมัติตาม width */
+    max-width: 800px; /* กำหนดความกว้างสูงสุดเพื่อไม่ให้ใหญ่เกินไป */
+    border-radius: 10px; /* ขอบโค้งมน */
+}
+
+.menu-list-profile{
+    flex-direction: row;
+    font-size: 18px;
+    /* background-color: #86b95c; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu-list-profile li {
+    display: inline; /* ทำให้แต่ละรายการในแนวนอน */
+}
+
+.menu-list-profile a {
+    text-decoration: none; /* ลบเส้นใต้ลิงก์ */
+    color: #007bff; /* สีของลิงก์ */
+    padding: 10px 15px; /* กำหนด padding */
+    border-radius: 5px; /* ขอบโค้งมน */
+    transition: background-color 0.3s ease; /* ใส่เอฟเฟกต์เวลาผ่านเมาส์ */
+}
+
+.menu-list-profile a:hover {
+    background-color: #0056b3; /* สีเมื่อเมาส์ hover */
+    color: white; /* สีตัวอักษรเมื่อ hover */
+}

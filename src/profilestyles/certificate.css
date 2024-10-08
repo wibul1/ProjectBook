@@ -1,0 +1,41 @@
+.container-certificate {
+    display: flex;
+    flex-wrap: wrap; /* ช่วยให้ขึ้นแถวใหม่เมื่อเต็มแถว */
+    gap: 20px; /* ระยะห่างระหว่างรูปภาพ */
+    justify-content: center; /* จัดกลาง */
+}
+
+.side-certificate {
+    flex: 0 0 calc(50% - 20px); /* ทำให้แต่ละรูปใช้พื้นที่ 50% ของแถว พร้อมระยะห่าง */
+    max-width: calc(50% - 20px);
+    box-sizing: border-box; /* รวม padding, border เข้ากับ width */
+}
+
+.title{
+    /* background-color: #5897d6; */
+    text-align: center;
+    font-size: 78px;
+}
+
+.left-side-certificate {
+    flex: 0 0 20%;
+    max-width: 70%;
+    /* background-color: #54aa6a;  */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-side-certificate {
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+    /* background-color: #e46f6f;  */
+}
+
+.profile-image-certificate {
+    width: 100%; /* ทำให้รูปภาพเต็มความกว้างของ container */
+    height: auto; /* ปรับอัตราส่วนภาพอัตโนมัติตาม width */
+    max-width: 700px; /* กำหนดความกว้างสูงสุดเพื่อไม่ให้ใหญ่เกินไป */
+    border-radius: 10px; /* ขอบโค้งมน */
+}
+

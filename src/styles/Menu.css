@@ -1,0 +1,31 @@
+/* src/styles/Menu.css */
+.menu-container {
+    width: 200px;
+    background-color: #92c8fe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin-bottom: 10px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-list li a:hover {
+    background-color: #e9ecef;
+}

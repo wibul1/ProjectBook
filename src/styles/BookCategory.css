@@ -1,0 +1,37 @@
+.book-category {
+    margin-bottom: 30px;
+}
+
+.book-category-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+    -webkit-overflow-scrolling: touch; /* ทำให้สามารถเลื่อนได้ด้วยการสัมผัส */
+    scroll-behavior: smooth; /* เลื่อนอย่างนุ่มนวล */
+}
+
+.book-item {
+    min-width: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.view-more-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-more-button:hover {
+    background-color: #0056b3;
+}
+

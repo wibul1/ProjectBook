@@ -1,0 +1,57 @@
+.book-detail {
+    max-width: 800px;
+    margin: 100px auto; /* เพิ่ม margin-top เป็น 100px เพื่อให้ห่างจากด้านบน 50px */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 200vh;
+}
+
+
+.book-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.book-detail h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.book-detail p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.book-detail button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.book-detail button:hover {
+    background-color: #45a049;
+}
+
+.book-detail button:nth-child(2) {
+    background-color: #008CBA;
+}
+
+.book-detail button:nth-child(2):hover {
+    background-color: #007bb5;
+}
+
+.textcenter {
+    text-align: center;
+}

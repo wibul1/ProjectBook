@@ -1,0 +1,108 @@
+/* Order.css */
+.textcenter {
+    text-align: center;
+}
+
+/* .order-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+} */
+
+.order-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-list li {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+/* .order-list li:hover {
+    transform: scale(1.02);
+} */
+
+.order-list img {
+    max-width: 100px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.order-list div {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #555;
+}
+
+.order-list div span {
+    font-weight: bold;
+    color: #333;
+}
+
+.order-status {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.order-status.completed {
+    background-color: #28a745; /* สีเขียว */
+}
+
+.order-status.pending {
+    background-color: #ffc107; /* สีเหลือง */
+}
+
+.order-status.canceled {
+    background-color: #dc3545; /* สีแดง */
+}
+
+.loading-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.deleteOrder {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    font-size: 0.8em;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    margin: 10px 4px;
+}
+
+.deleteOrder:hover {
+    background-color: #a50404;
+    
+}

@@ -1,0 +1,34 @@
+.container-performance {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.performance-item {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.performance-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.performance-detail {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.profile-image-performance {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
